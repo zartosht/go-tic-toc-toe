@@ -2,7 +2,7 @@
 
 This is my journey to learning `Golang`, my first approach was to make a board with rows and columns that user will specify. In this first version, user can not play and computer will play against itself and the winner will be picked by counting how many tiles belong to whom (X or O).
 
-# Run
+## Run
 
 For running this game, do the following:
 
@@ -34,11 +34,18 @@ O won the game!
 
 ```
 
-# Changelogs
+## Changelogs
 
-## 0.0.1 (2020-12-18)
+### 0.0.2 (2020-12-21)
 
-### Added
+- User can play now
+- Machine can play against user
+- It will cleanup board after every move
+- Cleaned up code
+- Added documentation
+- Added check for avalialbe tiles
+
+### 0.0.1 (2020-12-18)
 
 - Create a board with desired columns and rows.
 - Pick winner by determining who has most tiles.
